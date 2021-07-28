@@ -14,12 +14,8 @@ Couleurs :
 
 ---
 
-<details>
-
 ## resultat
 
 Vous pouvez envisager de compléter l'intégration avec tous les contenus proposés
 
 ![resultat](ressources/resultat.png)
-</details>
-# oFig
