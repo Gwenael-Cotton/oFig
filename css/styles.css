@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+   font-family: 'Raleway', sans-serif;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #c80000;
+    padding: 1.2rem;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.principalTitle {
+    font-size: 0.8rem;
+    margin: 5px;
+}
+
+h2 {
+    color: white;
+    background-color: #666;
+    font-size: 1rem;
+    letter-spacing: 0.04rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.secondTitle {
+    font-style: italic;
+}
+
+.picture {
+    max-width: 250px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.firstcontent {
+    margin-top: 120px;
+}
+
+.figurine {
+    max-width: 275px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    margin: 20px 10px;
+    padding: 0.4rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #666;
+    height: 3rem;
+    padding-top: 1rem;
+}
+
+.paraFooter {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+button {
+    background-color: #c80000;
+    border-style: none;
+    width: 100%;
+}
+
+button p {
+    color: white;
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.price {
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+figcaption {
+    color: #ccc;
+    font-size: 0.6rem;
+    border-bottom: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    margin: 5px;
+    padding-bottom: 5px;
+}
+
+article h1 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 10px auto 10px auto;
+}
+
+h1 + p {
+    font-size: 0.7rem;
+    margin: 10px auto 10px auto;
+}
+
+.sold {
+    text-decoration: line-through;
+    font-weight: normal;
+}
+
+.gotop {
+    position: fixed;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #c80000;
+    right: 5px;
+    bottom: 5px;
+
+}
